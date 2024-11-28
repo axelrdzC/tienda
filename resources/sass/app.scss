@@ -1,0 +1,69 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.welcome-txt {
+    font-weight: 900;
+    font-size: 2.6em;
+}
+
+.input-blur {
+    --bs-focus-ring-blur: 10px
+}
+
+.avatar-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.nav-item.dropdown {
+    list-style-type: none;
+}
+
+.nav-item .nav-link.active .nav-icon path {
+    stroke: #ffffff;
+}
+
+.svgs:hover path {
+    stroke: #ffffff;
+}
+
+.selects {
+    font-size: 0.9em;
+}
+
+.table tbody tr {
+    background-color: white !important;
+}
+
+.punteado {
+    border: 1px dashed #53545C;
+}
+
+.thisPaso {
+    background-color: white;
+}
+
+.thisPaso .titulo {
+    color: #8067B2 !important;
+    font-weight: bold;
+}
+
+.btn-check:checked + .btn {
+    background-color: white;
+    color: #8067B2;
+    border-color: #8067B2;
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+}
